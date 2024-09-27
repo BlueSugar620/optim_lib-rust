@@ -1,0 +1,3 @@
+## Rustの設定ファイル
+/target
+/Cargo.lock
