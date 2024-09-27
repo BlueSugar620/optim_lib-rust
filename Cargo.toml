@@ -5,5 +5,9 @@ edition = "2021"
 
 [dependencies]
 
+[[bin]]
+name = "number_theory"
+path = "number_theory"
+
 [workspace]
-members = []
+members = [ "number_theory/*" ]
