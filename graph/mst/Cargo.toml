@@ -1,0 +1,7 @@
+[package]
+name = "mst"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+unionfind = { path = "../../data_structure/unionfind" }
