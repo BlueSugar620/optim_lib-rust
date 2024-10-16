@@ -17,5 +17,9 @@ path = "data_structure"
 name = "graph"
 path = "graph"
 
+[[bin]]
+name = "seq"
+path = "seq"
+
 [workspace]
-members = [ "number_theory/*", "data_structure/*" , "graph/*" ]
+members = [ "number_theory/*", "data_structure/*" , "graph/*", "seq/*" ]
