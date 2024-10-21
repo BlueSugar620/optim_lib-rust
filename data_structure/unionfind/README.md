@@ -10,9 +10,11 @@ $\mathfrak{U} = \lbrace \lbrace s \rbrace : s \in S \rbrace$
 と初期化します。
 
 以下の操作は常に、以下が成り立ちます。
+
 $$
 \forall u \in S, \exists! U \in \mathfrak{U}, u \in U
 $$
+
 よって、このような 
 $s$
 に対する
