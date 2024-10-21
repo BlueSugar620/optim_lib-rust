@@ -18,9 +18,11 @@ $D = 0$
 と初期化します。
 
 操作より、常に以下が成り立つことが保証されます。
+
 $$
 \forall u \in S, \exists! U \in \mathfrak{U}, u \in U
 $$
+
 これより
 $u$
 に対する
@@ -32,11 +34,13 @@ $T(u)$
 ### 合併 ( `unite(u, v, d)` ) 
 $u, v \in S, d \in G$
 に対して、 
+
 $$
 \mathfrak{U} \to \mathfrak{U} - \{ T(u), T(v) \} + \{ T(u) \cup T(v) \}
 \\
 D(v) - D(u) = d
 $$
+
 とします。つまり、 
 $u, v$
 を距離
