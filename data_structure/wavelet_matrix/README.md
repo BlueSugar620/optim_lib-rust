@@ -25,9 +25,11 @@ $O(b)$
 ### ランク (`rank(range, v)`)
 $0 \le l \le r \le N, v \ge 0$
 に対して、
+
 $$
 \# \lbrace i \in [l, r): A_i = v \rbrace |
 $$
+
 を計算します。計算時間は、 $O(b)$ となります。
 
 ### 第k最小値 ( `quantile(range, k)` )
