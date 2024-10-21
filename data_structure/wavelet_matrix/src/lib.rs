@@ -27,10 +27,10 @@ impl WaveletMatrix {
         Self { values }
     }
 
-    pub fn access(&self, mut i: usize) -> u64 {
+    pub fn get_at(&self, mut i: usize) -> u64 {
         let mut res = 0;
         for (zero, bitvec) in self.values.iter().rev() {
-            let bit = bitvec.access(i);
+            let bit = bitvec.get_at(i);
             let rank = bitvec.rank(i);
             res = (res << 1) | bit as u64;
             if bit {
