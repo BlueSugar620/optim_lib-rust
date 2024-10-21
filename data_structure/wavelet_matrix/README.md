@@ -27,7 +27,7 @@ $0 \le l \le r \le N, v \ge 0$
 に対して、
 
 $$
-\# \lbrace i \in [l, r): A_i = v \rbrace |
+\lvert \lbrace i \in [l, r): A_i = v \rbrace \rvert
 $$
 
 を計算します。計算時間は、 $O(b)$ となります。
