@@ -23,7 +23,7 @@ where
         }
     }
 
-    pub fn root(&self, mut v: usize) -> (usize, O::Value) {
+    fn root(&self, mut v: usize) -> (usize, O::Value) {
         let mut pot = self.dist[v];
         while self.values[v] >= 0 {
             v = self.values[v] as usize;

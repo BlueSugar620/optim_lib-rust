@@ -13,7 +13,7 @@ impl StaticBitVec {
         self.len
     }
 
-    pub fn access(&self, i: usize) -> bool {
+    pub fn get_at(&self, i: usize) -> bool {
         let (q, r) = (i / UNIT, i % UNIT);
         self.bytes[q] >> r & 1 == 1
     }
