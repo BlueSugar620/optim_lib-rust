@@ -21,5 +21,9 @@ path = "graph"
 name = "seq"
 path = "seq"
 
+[[bin]]
+name = "algebra"
+path = "algebra"
+
 [workspace]
-members = [ "number_theory/*", "data_structure/*" , "graph/*", "seq/*" ]
+members = [ "number_theory/*", "data_structure/*" , "graph/*", "seq/*" , "algebra/*" ]
